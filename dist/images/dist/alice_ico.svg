@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7137ff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g class="cls-4">
+      <path class="cls-1" d="m20,29.48c-4.45-.02-8.82-.99-10.45-2.6-4.07-4.01,5.82-19.38,10.46-19.4,4.62.02,14.52,15.39,10.45,19.4-1.64,1.61-6,2.58-10.45,2.6m0,10.52c11.05,0,20-8.95,20-20S31.05,0,20,0,0,8.95,0,20s8.95,20,20,20"/>
+      <path class="cls-3" d="m20,29.48c-4.45-.02-8.82-.98-10.45-2.6-4.07-4.01,5.82-19.38,10.46-19.41,4.62.02,14.52,15.4,10.45,19.41-1.64,1.61-6,2.58-10.45,2.6"/>
+    </g>
+  </g>
+</svg>
