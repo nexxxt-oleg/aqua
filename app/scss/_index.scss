@@ -468,7 +468,7 @@ body {
   }
 
   &__img-type {
-    padding-bottom: 90px;
+    padding-bottom: 40px;
   }
 
   &__manual {
@@ -492,7 +492,9 @@ body {
     }
   }
 }
-
+#installation {
+  padding-top: 50px;
+}
 .app-market {
   height: 300px;
   position: relative;
