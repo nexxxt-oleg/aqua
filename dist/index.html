@@ -21,6 +21,38 @@
 </head>
 <body>
 <div class="main">
+    <header id="navbar" class="header">
+        <div class="container">
+            <div class="header__nav">
+                <div class="header__nav__logo">
+                    <img src="images/dist/logo.svg" width="36" height="36" alt="">
+                    <div class="header__nav__logo__caption">
+                        акватроник
+                    </div>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a href="#description">Описание</a>
+                    </li>
+                    <li>
+                        <a href="#installation">Установка</a>
+                    </li>
+                    <li>
+                        <a href="#specifications">Характеристики</a>
+                    </li>
+                </ul>
+                <div class="header__nav__btns">
+                    <a href="" class="btn btn--silver btn--min text-nowrap">
+                        Связаться с нами
+                    </a>
+                    <a href="" class="btn btn--blue btn--min text-nowrap">Купить за 4 990 ₽</a>
+                </div>
+                <div class="header__nav__btns-mob">
+                    <a href="" class="btn btn--blue btn--min">Купить</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
 <div class="section1">
     <div class="container">
@@ -57,23 +89,25 @@
                     <img src="images/dist/flag.svg" width="32" height="29" alt="">
                     СДЕЛАНО В РОССИИ
                 </div>
-                <div class="section1__pic">
-                </div>
-                <div class="section1__mobile" data-aos="fade-up">
-                    <picture>
-                        <source
-                                srcset="images/dist/mobile.png, images/dist/mobile@2.png 2x"/>
-                        <source media="(max-width: 640px)" srcset="images/dist/mobile.png"/>
-                        <img loading="lazy" width="355" height="678" alt=""
-                             src="images/dist/mobile.png"/>
-                    </picture>
+                <div class="position-relative section1__mob-wrap">
+                    <div class="section1__pic">
+                    </div>
+                    <div class="section1__mobile" data-aos="fade-up">
+                        <picture>
+                            <source
+                                    srcset="images/dist/mobile.png, images/dist/mobile@2.png 2x"/>
+                            <source media="(max-width: 640px)" srcset="images/dist/mobile.png"/>
+                            <img loading="lazy" width="355" height="678" alt=""
+                                 src="images/dist/mobile.png"/>
+                        </picture>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section2">
+<div class="section2" id="description">
     <div class="container">
         <div class="section2__header" data-aos="fade-up">
             <h2>Установите умный датчик уровня воды <b>Акватроник</b>,<br>
@@ -259,47 +293,54 @@
                              src="images/dist/s4_img1.png"/>
                     </picture>
                 </div>
-                <div class="section4__title" data-aos="fade-up">
-                    <h2>Максимально простой и быстрый способ установки</h2>
-                    <p>Просто просверлите отверстие в резервуаре, где вы хотите разместить датчик, прикрутите датчик
-                        <br>с помощью прилагаемых винтов, а затем подключите его к приложению Акватроник
-                        <br>на своем смартфоне на базе Android или iOS.</p>
-                </div>
+
             </div>
         </div>
-        <div class="row section4__manual">
-            <div class="col-lg-4 fpad30">
-                <div class="section4__manual__item" data-aos="fade-up">
-                    <div class="section4__manual__item__img">
-                        <img loading="lazy" width="350" height="340" alt=""
-                             src="images/dist/manual1.svg"/>
-                    </div>
-                    <div class="section4__manual__item__caption">
-                        Сделайте отверстие в резервуаре
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 fpad30">
-                <div class="section4__manual__item" data-aos="fade-up">
-                    <div class="section4__manual__item__img">
-                        <img loading="lazy" width="350" height="340" alt=""
-                             src="images/dist/manual2.svg"/>
-                    </div>
-                    <div class="section4__manual__item__caption">
-                        Установите и прикрутите датчик<br>
-                        с помощью прилагаемых винтов
+        <div id="installation">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section4__title" data-aos="fade-up">
+                        <h2>Максимально простой и быстрый способ установки</h2>
+                        <p>Просто просверлите отверстие в резервуаре, где вы хотите разместить датчик, прикрутите датчик
+                            <br>с помощью прилагаемых винтов, а затем подключите его к приложению Акватроник
+                            <br>на своем смартфоне на базе Android или iOS.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 fpad30">
-                <div class="section4__manual__item" data-aos="fade-up">
-                    <div class="section4__manual__item__img">
-                        <img loading="lazy" width="165" height="340" alt=""
-                             src="images/dist/manual3.svg"/>
+            <div class="row section4__manual">
+                <div class="col-lg-4 fpad30">
+                    <div class="section4__manual__item" data-aos="fade-up">
+                        <div class="section4__manual__item__img">
+                            <img loading="lazy" width="350" height="340" alt=""
+                                 src="images/dist/manual1.svg"/>
+                        </div>
+                        <div class="section4__manual__item__caption">
+                            Сделайте отверстие в резервуаре
+                        </div>
                     </div>
-                    <div class="section4__manual__item__caption">
-                        Подключите датчик к приложению<br>
-                        Акватроник
+                </div>
+                <div class="col-lg-4 fpad30">
+                    <div class="section4__manual__item" data-aos="fade-up">
+                        <div class="section4__manual__item__img">
+                            <img loading="lazy" width="350" height="340" alt=""
+                                 src="images/dist/manual2.svg"/>
+                        </div>
+                        <div class="section4__manual__item__caption">
+                            Установите и прикрутите датчик<br>
+                            с помощью прилагаемых винтов
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 fpad30">
+                    <div class="section4__manual__item" data-aos="fade-up">
+                        <div class="section4__manual__item__img">
+                            <img loading="lazy" width="165" height="340" alt=""
+                                 src="images/dist/manual3.svg"/>
+                        </div>
+                        <div class="section4__manual__item__caption">
+                            Подключите датчик к приложению<br>
+                            Акватроник
+                        </div>
                     </div>
                 </div>
             </div>
@@ -309,7 +350,7 @@
 <div class="section5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8">
+            <div class="col-xl-8">
                 <div class="app-market">
                     <div class="app-market__desc">
                         <div class="app-market__logo" data-aos="fade-in">
@@ -372,7 +413,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="specifications">
+                <div id="specifications" class="specifications">
                     <h2 data-aos="fade-up">Технические характеристики</h2>
                     <div class="specifications__group" data-aos="fade-up">
                         <div class="specifications__group__caption">Тип подключения</div>
@@ -508,7 +549,7 @@
                         </div>
                     </div>
                     <div class="specifications__footer" data-aos="fade-up">
-                        <button class="btn btn--blue btn--big w-100">
+                        <button class="btn btn--blue btn--middle w-100">
                             <span>
                                 Технический паспорт
                             </span>
@@ -582,18 +623,85 @@
     <div class="footer__back">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                     <div class="footer__back__left"></div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div class="footer__back__right"></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container footer__front">
-        <div class="row">
-            <div class="col-lg-8">
+        <div class="row flex-row-reverse">
+            <div class="col-xl-4 col-lg-5">
+                <div class="footer__front__right">
+                    <div class="footer__qr">
+                        <div class="footer__qr__title">
+                            Наведите камеру, чтобы скачать<br>
+                            приложение Акватроник
+                        </div>
+                        <div class="footer__qr__body">
+                            <div class="footer__qr__img">
+                                <img src="images/dist/qr.jpg" width="210" height="210" loading="lazy" alt="">
+                            </div>
+                            <div class="footer__qr__links">
+                                <a href="" target="_blank" class="footer__qr__links__item">
+                                    <svg width="32" height="39" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.57 17.18">
+                                        <path stroke-width="0" fill="currentColor" d="m13.67,0h.16c.13,1.21-.48,2.12-1.23,2.77-.73.65-1.73,1.28-3.35,1.19-.11-1.19.51-2.03,1.25-2.69.69-.61,1.95-1.15,3.17-1.27Z"></path>
+                                        <path stroke-width="0" fill="currentColor" d="m18.57,12.61v.03c-.45,1.04-1.1,1.93-1.9,2.76-.72.75-1.61,1.76-3.19,1.76-1.37,0-2.27-.66-3.68-.68-1.48-.02-2.3.55-3.65.7h-.46c-.99-.11-1.8-.7-2.38-1.24-1.72-1.58-3.06-3.63-3.31-6.24v-.77c.11-1.87,1.31-3.39,2.91-4.13.85-.39,2.01-.73,3.3-.58.56.06,1.12.21,1.62.35.47.14,1.06.38,1.62.37.38,0,.75-.16,1.14-.26,1.12-.3,2.21-.65,3.65-.49,1.73.2,2.96.78,3.72,1.67-1.47.7-2.62,1.76-2.43,3.58.18,1.65,1.44,2.61,3.03,3.18Z"></path>
+                                    </svg>
+                                </a>
+                                <a href="" target="_blank" class="footer__qr__links__item">
+                                    <svg width="30" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512.03">
+                                        <path stroke-width="0" fill="currentColor" d="m95.74,8.19c-20.03-11.07-43.55-10.82-63.46.16l233.28,215.2,78.37-78.37L95.74,8.19Z"></path>
+                                        <path stroke-width="0" fill="currentColor" d="m8.96,30.36C3.26,39.68,0,50.33,0,61.63v388.67c0,10.94,2.98,21.38,8.35,30.5l234.59-234.59L8.96,30.36Z"></path>
+                                        <path stroke-width="0" fill="currentColor" d="m447.84,202.52l-74.75-41.25-84,83.97,102.94,94.94,55.84-30.82c20.1-11.14,32.13-31.1,32.13-53.44-.03-22.34-12.03-42.3-32.16-53.41Z"></path>
+                                        <path stroke-width="0" fill="currentColor" d="m266.46,267.9L31.23,503.13c10.21,5.82,21.41,8.9,32.67,8.9s21.82-2.75,31.84-8.29l266.78-147.23-96.06-88.61Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__front__mob-app">
+                            <div class="app-market__body">
+                                <div class="app-market__body__label">
+                                    Скачать приложение<br>
+                                    Акватроник
+                                </div>
+                                <ul class="nav">
+                                    <li>
+                                        <a href="" class="app-market__link" target="_blank">
+                                            <svg width="23" height="28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.57 17.18">
+                                                <path stroke-width="0" fill="currentColor" d="m13.67,0h.16c.13,1.21-.48,2.12-1.23,2.77-.73.65-1.73,1.28-3.35,1.19-.11-1.19.51-2.03,1.25-2.69.69-.61,1.95-1.15,3.17-1.27Z"></path>
+                                                <path stroke-width="0" fill="currentColor" d="m18.57,12.61v.03c-.45,1.04-1.1,1.93-1.9,2.76-.72.75-1.61,1.76-3.19,1.76-1.37,0-2.27-.66-3.68-.68-1.48-.02-2.3.55-3.65.7h-.46c-.99-.11-1.8-.7-2.38-1.24-1.72-1.58-3.06-3.63-3.31-6.24v-.77c.11-1.87,1.31-3.39,2.91-4.13.85-.39,2.01-.73,3.3-.58.56.06,1.12.21,1.62.35.47.14,1.06.38,1.62.37.38,0,.75-.16,1.14-.26,1.12-.3,2.21-.65,3.65-.49,1.73.2,2.96.78,3.72,1.67-1.47.7-2.62,1.76-2.43,3.58.18,1.65,1.44,2.61,3.03,3.18Z"></path>
+                                            </svg>
+                                            <span>
+                                            Загрузить в
+                                            <b>App Store</b>
+                                        </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="app-market__link" target="_blank">
+                                            <svg width="26" height="28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512.03">
+                                                <path stroke-width="0" fill="currentColor" d="m95.74,8.19c-20.03-11.07-43.55-10.82-63.46.16l233.28,215.2,78.37-78.37L95.74,8.19Z"></path>
+                                                <path stroke-width="0" fill="currentColor" d="m8.96,30.36C3.26,39.68,0,50.33,0,61.63v388.67c0,10.94,2.98,21.38,8.35,30.5l234.59-234.59L8.96,30.36Z"></path>
+                                                <path stroke-width="0" fill="currentColor" d="m447.84,202.52l-74.75-41.25-84,83.97,102.94,94.94,55.84-30.82c20.1-11.14,32.13-31.1,32.13-53.44-.03-22.34-12.03-42.3-32.16-53.41Z"></path>
+                                                <path stroke-width="0" fill="currentColor" d="m266.46,267.9L31.23,503.13c10.21,5.82,21.41,8.9,32.67,8.9s21.82-2.75,31.84-8.29l266.78-147.23-96.06-88.61Z"></path>
+                                            </svg>
+                                            <span>
+                                            Доступно в
+                                            <b>Google Play</b>
+                                        </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-7">
                 <div class="footer__front__left">
                     <div class="footer__logo" data-aos="fade-in">
                         <img src="images/dist/logo.svg" width="64" height="64" alt="">
@@ -603,7 +711,7 @@
                     </div>
                     <div class="row pb-15">
                         <div class="col-lg-7" data-aos="fade-in">
-                            <div class="footer__requisites" >
+                            <div class="footer__requisites">
                                 ИП Котиков Сергей Андреевич <br>
                                 ОГРНИП 313502725900022<br>
                                 ИНН 502715888857
@@ -611,16 +719,38 @@
                             <a href="" class="footer__link">Политика конфиденциальности</a>
                         </div>
                         <div class="col-lg-5" data-aos="fade-in">
+                            <button class="btn btn--blue2 btn--middle"><span
+                                    class="text-uppercase">Связаться с нами</span></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="footer__copy">
+                                Умный автономный датчик уровня воды<br>
+                                Акватроник © 2025
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+
+                            <a href="https://koti.co/" target="_blank" class="footer__web d-flex align-items-center">
+                                <div class="ico">
+                                    <svg width="21" height="24" class="d-block" xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 15.03 17.57">
+                                        <path fill="currentColor"
+                                              d="m11.38,2.21H3.65L0,0v15.68H0v.02h.09l7.36,1.86s.04,0,.07,0h0s.04,0,.07,0l7.36-1.86h.09s0,0,0,0v-.02h0V0l-3.65,2.21Zm-3.92,13.12l-6.85-1.88V2.81s0,0,0,0v-1.73l2.85,1.73h4.05s2.87,0,2.87,0h1.17l2.85-1.73v1.73h0v10.64s-6.88,1.88-6.88,1.88c-.03,0-.06,0-.09,0Z"></path>
+                                        <polygon fill="currentColor"
+                                                 points="9.01 10.29 9 10.29 7.5 10.29 6.02 10.29 7.5 11.78 7.5 11.79 7.51 11.78 7.51 11.79 9.01 10.29"></polygon>
+                                    </svg>
+                                </div>
+                                <span class="d-block ps-3 footer__web__caption">Разработка сайта<br> Котиков Consulting</span>
+                            </a>
 
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="footer__front__right">
 
                 </div>
             </div>
+
         </div>
     </div>
 </footer>

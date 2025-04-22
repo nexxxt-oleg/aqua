@@ -35,23 +35,25 @@
                     <img src="images/dist/flag.svg" width="32" height="29" alt="">
                     СДЕЛАНО В РОССИИ
                 </div>
-                <div class="section1__pic">
-                </div>
-                <div class="section1__mobile" data-aos="fade-up">
-                    <picture>
-                        <source
-                                srcset="images/dist/mobile.png, images/dist/mobile@2.png 2x"/>
-                        <source media="(max-width: 640px)" srcset="images/dist/mobile.png"/>
-                        <img loading="lazy" width="355" height="678" alt=""
-                             src="images/dist/mobile.png"/>
-                    </picture>
+                <div class="position-relative section1__mob-wrap">
+                    <div class="section1__pic">
+                    </div>
+                    <div class="section1__mobile" data-aos="fade-up">
+                        <picture>
+                            <source
+                                    srcset="images/dist/mobile.png, images/dist/mobile@2.png 2x"/>
+                            <source media="(max-width: 640px)" srcset="images/dist/mobile.png"/>
+                            <img loading="lazy" width="355" height="678" alt=""
+                                 src="images/dist/mobile.png"/>
+                        </picture>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section2">
+<div class="section2" id="description">
     <div class="container">
         <div class="section2__header" data-aos="fade-up">
             <h2>Установите умный датчик уровня воды <b>Акватроник</b>,<br>
@@ -237,47 +239,54 @@
                              src="images/dist/s4_img1.png"/>
                     </picture>
                 </div>
-                <div class="section4__title" data-aos="fade-up">
-                    <h2>Максимально простой и быстрый способ установки</h2>
-                    <p>Просто просверлите отверстие в резервуаре, где вы хотите разместить датчик, прикрутите датчик
-                        <br>с помощью прилагаемых винтов, а затем подключите его к приложению Акватроник
-                        <br>на своем смартфоне на базе Android или iOS.</p>
-                </div>
+
             </div>
         </div>
-        <div class="row section4__manual">
-            <div class="col-lg-4 fpad30">
-                <div class="section4__manual__item" data-aos="fade-up">
-                    <div class="section4__manual__item__img">
-                        <img loading="lazy" width="350" height="340" alt=""
-                             src="images/dist/manual1.svg"/>
-                    </div>
-                    <div class="section4__manual__item__caption">
-                        Сделайте отверстие в резервуаре
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 fpad30">
-                <div class="section4__manual__item" data-aos="fade-up">
-                    <div class="section4__manual__item__img">
-                        <img loading="lazy" width="350" height="340" alt=""
-                             src="images/dist/manual2.svg"/>
-                    </div>
-                    <div class="section4__manual__item__caption">
-                        Установите и прикрутите датчик<br>
-                        с помощью прилагаемых винтов
+        <div id="installation">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section4__title" data-aos="fade-up">
+                        <h2>Максимально простой и быстрый способ установки</h2>
+                        <p>Просто просверлите отверстие в резервуаре, где вы хотите разместить датчик, прикрутите датчик
+                            <br>с помощью прилагаемых винтов, а затем подключите его к приложению Акватроник
+                            <br>на своем смартфоне на базе Android или iOS.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 fpad30">
-                <div class="section4__manual__item" data-aos="fade-up">
-                    <div class="section4__manual__item__img">
-                        <img loading="lazy" width="165" height="340" alt=""
-                             src="images/dist/manual3.svg"/>
+            <div class="row section4__manual">
+                <div class="col-lg-4 fpad30">
+                    <div class="section4__manual__item" data-aos="fade-up">
+                        <div class="section4__manual__item__img">
+                            <img loading="lazy" width="350" height="340" alt=""
+                                 src="images/dist/manual1.svg"/>
+                        </div>
+                        <div class="section4__manual__item__caption">
+                            Сделайте отверстие в резервуаре
+                        </div>
                     </div>
-                    <div class="section4__manual__item__caption">
-                        Подключите датчик к приложению<br>
-                        Акватроник
+                </div>
+                <div class="col-lg-4 fpad30">
+                    <div class="section4__manual__item" data-aos="fade-up">
+                        <div class="section4__manual__item__img">
+                            <img loading="lazy" width="350" height="340" alt=""
+                                 src="images/dist/manual2.svg"/>
+                        </div>
+                        <div class="section4__manual__item__caption">
+                            Установите и прикрутите датчик<br>
+                            с помощью прилагаемых винтов
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 fpad30">
+                    <div class="section4__manual__item" data-aos="fade-up">
+                        <div class="section4__manual__item__img">
+                            <img loading="lazy" width="165" height="340" alt=""
+                                 src="images/dist/manual3.svg"/>
+                        </div>
+                        <div class="section4__manual__item__caption">
+                            Подключите датчик к приложению<br>
+                            Акватроник
+                        </div>
                     </div>
                 </div>
             </div>
@@ -287,7 +296,7 @@
 <div class="section5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8">
+            <div class="col-xl-8">
                 <div class="app-market">
                     <div class="app-market__desc">
                         <div class="app-market__logo" data-aos="fade-in">
@@ -350,7 +359,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="specifications">
+                <div id="specifications" class="specifications">
                     <h2 data-aos="fade-up">Технические характеристики</h2>
                     <div class="specifications__group" data-aos="fade-up">
                         <div class="specifications__group__caption">Тип подключения</div>
@@ -486,7 +495,7 @@
                         </div>
                     </div>
                     <div class="specifications__footer" data-aos="fade-up">
-                        <button class="btn btn--blue btn--big w-100">
+                        <button class="btn btn--blue btn--middle w-100">
                             <span>
                                 Технический паспорт
                             </span>
