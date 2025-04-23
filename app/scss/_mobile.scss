@@ -493,4 +493,12 @@
   .section3__header__sub-title {
     font-size: 12px;
   }
+
+  .section1__pic:before,
+  .section1__pic:after {
+    bottom: -110px;
+  }
+  #installation {
+    padding-top: 50px;
+  }
 }
