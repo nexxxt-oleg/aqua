@@ -197,6 +197,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .section2__header h2 br {
+    display: none;
+  }
   .header {
     opacity: 1;
     transform: translateY(0);
